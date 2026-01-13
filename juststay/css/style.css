@@ -102,10 +102,17 @@ nav {
     font-size: 16px;
 }
 
+.nav-links li a:hover {
+    color: var(--primary-color);
+}
+
 .logout {
     color: white;
     cursor: pointer;
     font-size: 16px;
+}
+.logout:hover {
+    color: var(--primary-color);
 }
 
 h1 {
@@ -224,6 +231,11 @@ h4 {
     font-size: 34px;
     margin: auto;
     padding: 10px;
+}
+
+.numbers:hover {
+    background-color: var(--font-color);
+    color: var(--primary-color);
 }
 
 .rooms {
@@ -440,4 +452,8 @@ footer {
     text-decoration: none;
     color: var(--font-color-para);
     font-size: 14px;
+}
+
+.footer-link-group ul li a:hover {
+    color: var(--primary-color);
 }
